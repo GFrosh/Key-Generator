@@ -8,8 +8,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["random", "key", "generator", "password", "uuid", "nodejs", "cli", "clipboard"],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "clipboardy": "^5.3.1"
+  }
 }
