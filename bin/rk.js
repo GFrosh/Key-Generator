@@ -37,7 +37,10 @@ if (!arg) {
 	process.exit(0);
 }
 if (arg === "env") {
+    console.log(`PORT=3000`);
 	console.log(`JWT_SECRET=${randomHex(64)}`);
+    console.log(`DB_PASSWORD=${randomPassword(16)}`);
+    console.log(`DB_NAME=mydatabase`);
 	console.log(`SESSION_SECRET=${randomHex(64)}`);
 	console.log(`COOKIE_SECRET=${randomHex(64)}`);
 	console.log(`PASSWORD=${randomPassword(16)}`);
