@@ -1,5 +1,5 @@
 {
-  "name": "random_key_generator",
+  "name": "rkgen",
   "version": "1.0.0",
   "description": "a simple random key generator built with nodejs",
   "bin": {
