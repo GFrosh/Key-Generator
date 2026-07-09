@@ -5,13 +5,27 @@
   "bin": {
     "rk": "./bin/rk.js"
   },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["random", "key", "generator", "password", "uuid", "nodejs", "cli", "clipboard"],
-  "author": "",
+  "author": "GFrosh",
   "license": "ISC",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GFrosh/Key-Generator.git"
+  },
+  "homepage": "https://github.com/GFrosh/Key-Generator#readme",
+  "bugs": {
+    "url": "https://github.com/GFrosh/Key-Generator/issues"
+  },
   "dependencies": {
     "clipboardy": "^5.3.1"
   }
